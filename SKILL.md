@@ -63,5 +63,5 @@ open /tmp/swapi_dashboard.html
 ## Notes
 
 - The API occasionally returns fewer records than `total_records` suggests — re-run if counts look low.
-- `swapi_dashboard.html` in this repo is a pre-built snapshot from the last scrape.
+- `index.html` in this repo is a pre-built snapshot served via GitHub Pages at https://lana-20.github.io/swapi-dashboard/
 - SSL: pass `context=ssl._create_unverified_context()` or disable cert verification on macOS Python 3.13+.
