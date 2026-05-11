@@ -28,6 +28,12 @@ Scrapes the [Star Wars API](https://swapi.tech/) and generates a dark-themed int
 
 Cross-source comparison — Yoda from swapi.tech, Grogu scraped from the Star Wars Databank using vibium.
 
+**Grogu — Star Wars Databank**
+
+![Grogu Databank](grogu_databank.png)
+
+**Yoda vs Grogu comparison**
+
 ![Yoda vs Grogu](yoda_vs_grogu.png)
 
 ## Files
