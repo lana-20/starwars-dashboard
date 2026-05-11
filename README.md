@@ -23,14 +23,18 @@ Scrapes Star Wars data from two sources — the [swapi.tech](https://swapi.tech/
 
 ## Dashboard panels
 
-| Panel | Description |
-|---|---|
-| Characters per Film | Prequel trilogy peaks at 40 characters vs 16–20 in the originals |
-| Planet Population | Log-scale bar — Coruscant dominates at 1 trillion |
-| Height vs Mass | Scatter plot — Jabba the Hutt is the obvious outlier at 1,358 kg |
-| Starship Length | Death Star at 120,000 m dwarfs the entire fleet |
-| Surface Water % by Climate | Box plot grouped by climate type |
-| Film Content Breakdown | Stacked bar: planets + starships + vehicles per episode |
+8 panels across a 4×2 grid — 6 sourced from swapi.tech, 2 from the Star Wars Databank.
+
+| Panel | Source | Description |
+|---|---|---|
+| Characters per Film | swapi.tech | Prequel trilogy peaks at 40 characters vs 16–20 in the originals |
+| Planet Population | swapi.tech | Log-scale bar — Coruscant dominates at 1 trillion |
+| Height vs Mass | swapi.tech | Scatter plot — Jabba the Hutt is the obvious outlier at 1,358 kg |
+| Starship Length | swapi.tech | Death Star at 120,000 m dwarfs the entire fleet |
+| Surface Water % by Climate | swapi.tech | Box plot grouped by climate type |
+| Film Content Breakdown | swapi.tech | Stacked bar: planets + starships + vehicles per episode |
+| Appearances by Character | Databank | R2-D2 and Darth Vader lead with 19–21 appearances across films, shows, and games |
+| Faction Membership | Databank | Jedi Order tops at 9 members; Rebel Alliance 7; Sith 4 |
 
 ## Yoda vs Grogu
 
@@ -51,6 +55,7 @@ Cross-source comparison — Yoda from swapi.tech, Grogu scraped from the Star Wa
 | `SKILL.md` | Skill definition and step-by-step instructions |
 | `swapi_viz.py` | Scrape + Plotly script |
 | `index.html` | Live interactive dashboard (served via GitHub Pages) |
+| `databank_structured.json` | 26 characters scraped from the Databank with affiliations + appearances |
 | `yoda_vs_grogu.html` | Yoda vs Grogu static comparison viz |
 
 ## Usage
