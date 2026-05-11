@@ -59,14 +59,18 @@ python3 swapi_viz.py
 open /tmp/swapi_dashboard.html
 ```
 
-## Dashboard panels (swapi.tech data)
+## Dashboard panels (4×2 grid)
 
-1. **Characters per Film** — coloured bar, prequel trilogy peaks at 40
-2. **Planet Population (top 12)** — log-scale bar, Coruscant dominates
-3. **Height vs Mass scatter** — Jabba the Hutt outlier at 1,358 kg
-4. **Starship Length Distribution** — Death Star at 120,000 m
-5. **Surface Water % by Climate** — box plot by climate type
-6. **Film Content Breakdown** — stacked bar: planets + starships + vehicles per episode
+| Panel | Source | Description |
+|---|---|---|
+| Characters per Film | swapi.tech | Coloured bar, prequel trilogy peaks at 40 |
+| Planet Population (top 12) | swapi.tech | Log-scale bar, Coruscant dominates |
+| Height vs Mass | swapi.tech | Scatter — Jabba the Hutt outlier at 1,358 kg |
+| Starship Length Distribution | swapi.tech | Death Star at 120,000 m |
+| Surface Water % by Climate | swapi.tech | Box plot by climate type |
+| Film Content Breakdown | swapi.tech | Stacked bar: planets + starships + vehicles per episode |
+| Appearances by Character | Databank | R2-D2 and Darth Vader lead with 19–21 across films, shows, and games |
+| Faction Membership | Databank | Jedi Order 9 members, Rebel Alliance 7, Sith 4 |
 
 ## Cross-source comparisons
 
