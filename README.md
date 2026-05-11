@@ -2,6 +2,9 @@
 
 Scrapes the [Star Wars API](https://swapi.tech/) and generates a dark-themed interactive Plotly dashboard — all from the command line using the [vibium](https://vibium.io) vibe-check CLI for browser automation.
 
+**Live dashboard:** https://lana-20.github.io/swapi-dashboard/
+**GitHub repo:** https://github.com/lana-20/swapi-dashboard
+
 ![SWAPI Dashboard](swapi_dashboard.png)
 
 ## What it does
@@ -28,7 +31,7 @@ Scrapes the [Star Wars API](https://swapi.tech/) and generates a dark-themed int
 |---|---|
 | `SKILL.md` | Skill definition and step-by-step instructions |
 | `swapi_viz.py` | Scrape + Plotly script |
-| `swapi_dashboard.html` | Pre-built interactive dashboard (open in any browser) |
+| `index.html` | Live interactive dashboard (served via GitHub Pages) |
 
 ## Usage
 
