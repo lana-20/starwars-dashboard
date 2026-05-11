@@ -148,7 +148,7 @@ fig.add_trace(go.Bar(
 fig.update_layout(
     barmode="stack",
     title=dict(
-        text="Star Wars Universe — Data Scraped from swapi.tech",
+        text="Star Wars Universe — swapi.tech + Star Wars Databank",
         font=dict(size=22, color="#FFE81F"),
         x=0.5,
     ),
