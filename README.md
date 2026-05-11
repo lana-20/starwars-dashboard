@@ -24,6 +24,12 @@ Scrapes the [Star Wars API](https://swapi.tech/) and generates a dark-themed int
 | Surface Water % by Climate | Box plot grouped by climate type |
 | Film Content Breakdown | Stacked bar: planets + starships + vehicles per episode |
 
+## Bonus: Yoda vs Grogu
+
+Cross-source comparison — Yoda from swapi.tech, Grogu scraped from the Star Wars Databank using vibium.
+
+![Yoda vs Grogu](yoda_vs_grogu.png)
+
 ## Files
 
 | File | Description |
@@ -31,6 +37,7 @@ Scrapes the [Star Wars API](https://swapi.tech/) and generates a dark-themed int
 | `SKILL.md` | Skill definition and step-by-step instructions |
 | `swapi_viz.py` | Scrape + Plotly script |
 | `index.html` | Live interactive dashboard (served via GitHub Pages) |
+| `yoda_vs_grogu.html` | Yoda vs Grogu static comparison viz |
 
 ## Usage
 

@@ -1,0 +1,393 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Yoda vs Grogu</title>
+<style>
+  @import url('https://fonts.googleapis.com/css2?family=Orbitron:wght@400;700;900&family=Share+Tech+Mono&display=swap');
+
+  * { box-sizing: border-box; margin: 0; padding: 0; }
+
+  body {
+    background: #060b10;
+    color: #e0e0e0;
+    font-family: 'Share Tech Mono', monospace;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 40px 20px;
+  }
+
+  h1 {
+    font-family: 'Orbitron', sans-serif;
+    font-size: 1.6rem;
+    letter-spacing: 0.2em;
+    color: #FFE81F;
+    text-transform: uppercase;
+    margin-bottom: 8px;
+    text-align: center;
+  }
+
+  .subtitle {
+    color: #666;
+    font-size: 0.8rem;
+    margin-bottom: 40px;
+    letter-spacing: 0.1em;
+  }
+
+  .cards {
+    display: flex;
+    gap: 32px;
+    justify-content: center;
+    flex-wrap: wrap;
+    margin-bottom: 48px;
+  }
+
+  .card {
+    background: #0d1520;
+    border: 1px solid #1e3a5f;
+    border-radius: 4px;
+    width: 260px;
+    overflow: hidden;
+  }
+
+  .card-header {
+    padding: 20px;
+    text-align: center;
+    border-bottom: 1px solid #1e3a5f;
+  }
+
+  .card-header.yoda { background: linear-gradient(135deg, #0d2b1a, #0d1520); }
+  .card-header.grogu { background: linear-gradient(135deg, #1a1a2e, #0d1520); }
+
+  .avatar {
+    width: 72px;
+    height: 72px;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 2.4rem;
+    margin: 0 auto 12px;
+    border: 2px solid;
+  }
+
+  .yoda .avatar { border-color: #2d9e5f; background: #0d2b1a; }
+  .grogu .avatar { border-color: #457b9d; background: #1a1a2e; }
+
+  .card-name {
+    font-family: 'Orbitron', sans-serif;
+    font-size: 1.1rem;
+    letter-spacing: 0.15em;
+    margin-bottom: 4px;
+  }
+
+  .yoda .card-name { color: #2d9e5f; }
+  .grogu .card-name { color: #457b9d; }
+
+  .card-source { font-size: 0.65rem; color: #555; }
+
+  .stats { padding: 16px 20px; }
+
+  .stat-row {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 7px 0;
+    border-bottom: 1px solid #111e2e;
+    font-size: 0.78rem;
+  }
+
+  .stat-row:last-child { border-bottom: none; }
+  .stat-label { color: #556; text-transform: uppercase; letter-spacing: 0.08em; }
+  .stat-value { color: #cde; }
+
+  /* height visual */
+  .height-section {
+    background: #0d1520;
+    border: 1px solid #1e3a5f;
+    border-radius: 4px;
+    padding: 28px 40px;
+    margin-bottom: 48px;
+    width: 100%;
+    max-width: 560px;
+  }
+
+  .section-title {
+    font-family: 'Orbitron', sans-serif;
+    font-size: 0.75rem;
+    color: #FFE81F;
+    letter-spacing: 0.2em;
+    text-transform: uppercase;
+    margin-bottom: 24px;
+    text-align: center;
+  }
+
+  .height-viz {
+    display: flex;
+    align-items: flex-end;
+    justify-content: center;
+    gap: 48px;
+    height: 160px;
+  }
+
+  .bar-wrap { display: flex; flex-direction: column; align-items: center; gap: 8px; }
+
+  .bar {
+    width: 48px;
+    border-radius: 2px 2px 0 0;
+    position: relative;
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+    padding-top: 6px;
+    font-size: 0.75rem;
+    font-family: 'Orbitron', sans-serif;
+    font-weight: 700;
+    transition: opacity 0.3s;
+  }
+
+  .bar.yoda-bar  { background: linear-gradient(180deg, #2d9e5f, #0d4a28); height: 132px; color: #fff; }
+  .bar.grogu-bar { background: linear-gradient(180deg, #457b9d, #1a3a5c); height: 68px;  color: #fff; }
+
+  .bar-label {
+    font-size: 0.7rem;
+    color: #666;
+    letter-spacing: 0.1em;
+    text-transform: uppercase;
+  }
+
+  /* age timeline */
+  .timeline-section {
+    background: #0d1520;
+    border: 1px solid #1e3a5f;
+    border-radius: 4px;
+    padding: 28px 40px;
+    width: 100%;
+    max-width: 560px;
+    margin-bottom: 48px;
+  }
+
+  .timeline {
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+  }
+
+  .tl-row { display: flex; align-items: center; gap: 12px; }
+
+  .tl-name {
+    width: 60px;
+    font-size: 0.7rem;
+    text-transform: uppercase;
+    letter-spacing: 0.08em;
+    flex-shrink: 0;
+  }
+
+  .tl-name.yoda  { color: #2d9e5f; }
+  .tl-name.grogu { color: #457b9d; }
+
+  .tl-track {
+    flex: 1;
+    height: 20px;
+    background: #111e2e;
+    border-radius: 2px;
+    position: relative;
+    overflow: hidden;
+  }
+
+  .tl-fill {
+    height: 100%;
+    border-radius: 2px;
+    display: flex;
+    align-items: center;
+    padding-left: 8px;
+    font-size: 0.68rem;
+    white-space: nowrap;
+  }
+
+  .tl-fill.yoda  { background: linear-gradient(90deg, #2d9e5f, #1a5c38); width: 100%; color: #fff; }
+  .tl-fill.grogu { background: linear-gradient(90deg, #457b9d, #1a3a5c); width: 6%;  color: transparent; }
+
+  .tl-age {
+    font-size: 0.72rem;
+    color: #889;
+    width: 90px;
+    flex-shrink: 0;
+    text-align: right;
+  }
+
+  /* affiliation badges */
+  .badges-section {
+    background: #0d1520;
+    border: 1px solid #1e3a5f;
+    border-radius: 4px;
+    padding: 28px 40px;
+    width: 100%;
+    max-width: 560px;
+  }
+
+  .badge-grid {
+    display: flex;
+    gap: 24px;
+    justify-content: center;
+    flex-wrap: wrap;
+  }
+
+  .badge-col { display: flex; flex-direction: column; gap: 8px; align-items: center; }
+
+  .badge-col-label {
+    font-size: 0.65rem;
+    text-transform: uppercase;
+    letter-spacing: 0.1em;
+    margin-bottom: 4px;
+  }
+
+  .badge-col-label.yoda  { color: #2d9e5f; }
+  .badge-col-label.grogu { color: #457b9d; }
+
+  .badge {
+    padding: 4px 12px;
+    border-radius: 2px;
+    font-size: 0.68rem;
+    letter-spacing: 0.08em;
+    text-transform: uppercase;
+  }
+
+  .badge.yoda  { background: #0d2b1a; border: 1px solid #2d9e5f; color: #2d9e5f; }
+  .badge.grogu { background: #1a1a2e; border: 1px solid #457b9d; color: #457b9d; }
+  .badge.shared { background: #1a1a0d; border: 1px solid #FFE81F; color: #FFE81F; }
+
+  .divider {
+    width: 1px;
+    background: #1e3a5f;
+    align-self: stretch;
+    margin: 0 8px;
+  }
+
+  footer {
+    margin-top: 40px;
+    font-size: 0.6rem;
+    color: #333;
+    letter-spacing: 0.1em;
+    text-align: center;
+  }
+  footer a { color: #444; }
+</style>
+</head>
+<body>
+
+<h1>Yoda &nbsp;vs&nbsp; Grogu</h1>
+<p class="subtitle">Same species. Different galaxies of experience.</p>
+
+<!-- stat cards -->
+<div class="cards">
+  <div class="card">
+    <div class="card-header yoda">
+      <div class="avatar">🟢</div>
+      <div class="card-name">Yoda</div>
+      <div class="card-source">source: swapi.tech</div>
+    </div>
+    <div class="stats">
+      <div class="stat-row"><span class="stat-label">Height</span><span class="stat-value">66 cm</span></div>
+      <div class="stat-row"><span class="stat-label">Mass</span><span class="stat-value">17 kg</span></div>
+      <div class="stat-row"><span class="stat-label">Birth year</span><span class="stat-value">896 BBY</span></div>
+      <div class="stat-row"><span class="stat-label">Age at story</span><span class="stat-value">~900 yrs</span></div>
+      <div class="stat-row"><span class="stat-label">Eye color</span><span class="stat-value">Brown</span></div>
+      <div class="stat-row"><span class="stat-label">Skin color</span><span class="stat-value">Green</span></div>
+      <div class="stat-row"><span class="stat-label">Gender</span><span class="stat-value">Male</span></div>
+      <div class="stat-row"><span class="stat-label">Species</span><span class="stat-value">Yoda's species</span></div>
+      <div class="stat-row"><span class="stat-label">Appears in</span><span class="stat-value">Episodes 1–6</span></div>
+    </div>
+  </div>
+
+  <div class="card">
+    <div class="card-header grogu">
+      <div class="avatar">🫛</div>
+      <div class="card-name">Grogu</div>
+      <div class="card-source">source: starwars.com/databank</div>
+    </div>
+    <div class="stats">
+      <div class="stat-row"><span class="stat-label">Height</span><span class="stat-value">34 cm</span></div>
+      <div class="stat-row"><span class="stat-label">Mass</span><span class="stat-value">unknown</span></div>
+      <div class="stat-row"><span class="stat-label">Birth year</span><span class="stat-value">~41 BBY</span></div>
+      <div class="stat-row"><span class="stat-label">Age at story</span><span class="stat-value">~54 yrs</span></div>
+      <div class="stat-row"><span class="stat-label">Eye color</span><span class="stat-value">Dark brown</span></div>
+      <div class="stat-row"><span class="stat-label">Skin color</span><span class="stat-value">Green</span></div>
+      <div class="stat-row"><span class="stat-label">Gender</span><span class="stat-value">Male</span></div>
+      <div class="stat-row"><span class="stat-label">Species</span><span class="stat-value">Yoda's species</span></div>
+      <div class="stat-row"><span class="stat-label">Appears in</span><span class="stat-value">The Mandalorian+</span></div>
+    </div>
+  </div>
+</div>
+
+<!-- height bar chart -->
+<div class="height-section">
+  <div class="section-title">Height comparison</div>
+  <div class="height-viz">
+    <div class="bar-wrap">
+      <div class="bar yoda-bar">66 cm</div>
+      <div class="bar-label">Yoda</div>
+    </div>
+    <div class="bar-wrap">
+      <div class="bar grogu-bar">34 cm</div>
+      <div class="bar-label">Grogu</div>
+    </div>
+  </div>
+</div>
+
+<!-- age timeline -->
+<div class="timeline-section">
+  <div class="section-title">Age at time of story (species lifespan ~900 yrs)</div>
+  <div class="timeline">
+    <div class="tl-row">
+      <div class="tl-name yoda">Yoda</div>
+      <div class="tl-track">
+        <div class="tl-fill yoda">~900 years old</div>
+      </div>
+      <div class="tl-age">896 BBY born</div>
+    </div>
+    <div class="tl-row">
+      <div class="tl-name grogu">Grogu</div>
+      <div class="tl-track">
+        <div class="tl-fill grogu">~54</div>
+      </div>
+      <div class="tl-age">~41 BBY born</div>
+    </div>
+  </div>
+</div>
+
+<!-- affiliations -->
+<div class="badges-section">
+  <div class="section-title">Affiliations</div>
+  <div class="badge-grid">
+    <div class="badge-col">
+      <div class="badge-col-label yoda">Yoda only</div>
+      <div class="badge yoda">Galactic Republic</div>
+      <div class="badge yoda">Jedi Council</div>
+    </div>
+    <div class="divider"></div>
+    <div class="badge-col">
+      <div class="badge-col-label shared">Shared</div>
+      <div class="badge shared">Jedi Order</div>
+      <div class="badge shared">Force-sensitive</div>
+    </div>
+    <div class="divider"></div>
+    <div class="badge-col">
+      <div class="badge-col-label grogu">Grogu only</div>
+      <div class="badge grogu">Mandalorians</div>
+      <div class="badge grogu">Order 66 survivor</div>
+    </div>
+  </div>
+</div>
+
+<footer>
+  Yoda data: <a href="https://swapi.tech/api/people/20">swapi.tech</a> &nbsp;·&nbsp;
+  Grogu data: <a href="https://www.starwars.com/databank/grogu">starwars.com/databank</a> &nbsp;·&nbsp;
+  scraped with vibium vibe-check
+</footer>
+
+</body>
+</html>
