@@ -1,0 +1,938 @@
+[
+  {
+    "name": "Ahsoka Tano",
+    "Appearances": [
+      "Star Wars: The Book of Boba Fett",
+      "Star Wars: The Clone Wars",
+      "Star Wars Rebels",
+      "Star Wars: The Mandalorian",
+      "Star Wars: Tales of the Jedi",
+      "Star Wars: Ahsoka"
+    ],
+    "Affiliations": [
+      "Jedi Order",
+      "Rebel Alliance"
+    ],
+    "Locations": [
+      "Coruscant"
+    ],
+    "Gender": [
+      "Female"
+    ],
+    "Dimensions": [
+      "Height: 1.79m"
+    ],
+    "species": [
+      "Togruta"
+    ],
+    "Vehicles": [
+      "Jedi T-6 Shuttle",
+      "Jedi Starfighter"
+    ],
+    "Weapons": [
+      "Lightsaber",
+      "Ahsoka's lightsabers"
+    ],
+    "height": "1.79m",
+    "gender": "Female",
+    "slug": "ahsoka-tano"
+  },
+  {
+    "name": "Anakin Skywalker",
+    "Appearances": [
+      "Star Wars: Attack of the Clones (Episode II)",
+      "Star Wars: Revenge of the Sith (Episode III)",
+      "Star Wars: The Phantom Menace (Episode I)",
+      "Star Wars: Return of the Jedi (Episode VI)",
+      "Star Wars: Obi-Wan Kenobi",
+      "Star Wars: The Clone Wars",
+      "Star Wars Rebels",
+      "Star Wars: Tales of the Jedi",
+      "Star Wars: Ahsoka",
+      "Galactic Spy",
+      "Disney Infinity 3.0 - Character Quest"
+    ],
+    "Affiliations": [
+      "Jedi Order"
+    ],
+    "Locations": [
+      "Tatooine"
+    ],
+    "Dimensions": [
+      "Height: 1.88m"
+    ],
+    "Weapons": [
+      "Lightsaber",
+      "Skywalker lightsaber"
+    ],
+    "Vehicles": [
+      "Delta-7 Jedi Starfighter"
+    ],
+    "height": "1.88m",
+    "gender": null,
+    "slug": "anakin-skywalker"
+  },
+  {
+    "name": "Bo-Katan Kryze",
+    "Appearances": [
+      "Star Wars: The Clone Wars",
+      "Star Wars Rebels",
+      "Star Wars: The Mandalorian"
+    ],
+    "Affiliations": [
+      "Death Watch",
+      "Mandalorians"
+    ],
+    "Locations": [
+      "Mandalore"
+    ],
+    "Gender": [
+      "Female"
+    ],
+    "Dimensions": [
+      "Height: 1.8m"
+    ],
+    "species": [
+      "Human"
+    ],
+    "Weapons": [
+      "Blaster Pistol",
+      "Darksaber"
+    ],
+    "height": "1.8m",
+    "gender": "Female",
+    "slug": "bo-katan-kryze"
+  },
+  {
+    "name": "Boba Fett",
+    "Appearances": [
+      "Star Wars: A New Hope (Episode IV)",
+      "Star Wars: The Empire Strikes Back (Episode V)",
+      "Star Wars: Attack of the Clones (Episode II)",
+      "Star Wars: Return of the Jedi (Episode VI)",
+      "Star Wars: The Clone Wars",
+      "Star Wars: The Mandalorian",
+      "Star Wars: The Book of Boba Fett",
+      "A Sticker Book Far, Far Away",
+      "Star Wars: Battlefront",
+      "Star Wars: Rivals"
+    ],
+    "Locations": [
+      "Kamino",
+      "Boba Fett\u2019s Palace"
+    ],
+    "Gender": [
+      "Male"
+    ],
+    "Dimensions": [
+      "Height: 1.83m"
+    ],
+    "species": [
+      "Human"
+    ],
+    "Weapons": [
+      "Blaster Rifle",
+      "Z-6 Jetpack",
+      "Flame Thrower"
+    ],
+    "Vehicles": [
+      "Boba Fett's starship"
+    ],
+    "height": "1.83m",
+    "gender": "Male",
+    "slug": "boba-fett"
+  },
+  {
+    "name": "C-3PO (See-Threepio)",
+    "Appearances": [
+      "Star Wars: The Force Awakens (Episode VII)",
+      "Star Wars: A New Hope (Episode IV)",
+      "Rogue One: A Star Wars Story",
+      "Star Wars: The Empire Strikes Back (Episode V)",
+      "Star Wars: Attack of the Clones (Episode II)",
+      "Star Wars: Return of the Jedi (Episode VI)",
+      "Star Wars: The Rise of Skywalker (Episode IX)",
+      "Star Wars: The Phantom Menace (Episode I)",
+      "Star Wars: The Last Jedi (Episode VIII)",
+      "Star Wars: Revenge of the Sith (Episode III)",
+      "Star Wars Rebels",
+      "Star Wars: The Clone Wars",
+      "Star Wars: Ahsoka",
+      "Star Wars: Obi-Wan Kenobi",
+      "Star Wars Arcade",
+      "A Sticker Book Far, Far Away"
+    ],
+    "Affiliations": [
+      "Rebel Alliance",
+      "The Resistance"
+    ],
+    "Locations": [
+      "Tatooine"
+    ],
+    "Dimensions": [
+      "Height: 1.77m"
+    ],
+    "droid": [
+      "Protocol Droid"
+    ],
+    "Tool": [
+      "Restraining Bolt"
+    ],
+    "height": "1.77m",
+    "gender": null,
+    "slug": "c-3po"
+  },
+  {
+    "name": "Chewbacca",
+    "Appearances": [
+      "Star Wars: The Force Awakens (Episode VII)",
+      "Star Wars: A New Hope (Episode IV)",
+      "Star Wars: The Empire Strikes Back (Episode V)",
+      "Star Wars: Return of the Jedi (Episode VI)",
+      "Star Wars: The Rise of Skywalker (Episode IX)",
+      "Star Wars: The Last Jedi (Episode VIII)",
+      "Solo: A Star Wars Story",
+      "Star Wars: Revenge of the Sith (Episode III)",
+      "Star Wars: The Clone Wars",
+      "Star Wars Pinball: Solo: A Star Wars Story",
+      "X-wing Fighter - Star Wars Arcade",
+      "A Sticker Book Far, Far Away",
+      "Solo Shuffle",
+      "Don't Let The Wookiee Win"
+    ],
+    "Affiliations": [
+      "Rebel Alliance",
+      "The Resistance"
+    ],
+    "Locations": [
+      "Kashyyyk",
+      "Numidian Prime"
+    ],
+    "Gender": [
+      "Male"
+    ],
+    "Dimensions": [
+      "Height: 2.28m"
+    ],
+    "species": [
+      "Wookiee"
+    ],
+    "Weapons": [
+      "Bowcaster"
+    ],
+    "Vehicles": [
+      "Millennium Falcon",
+      "The Eravana"
+    ],
+    "height": "2.28m",
+    "gender": "Male",
+    "slug": "chewbacca"
+  },
+  {
+    "name": "Count Dooku",
+    "Appearances": [
+      "Star Wars: Attack of the Clones (Episode II)",
+      "Star Wars: Revenge of the Sith (Episode III)",
+      "Star Wars: The Clone Wars",
+      "Star Wars: Tales of the Jedi"
+    ],
+    "Affiliations": [
+      "Jedi Order",
+      "Confederacy of Independent Systems",
+      "Sith"
+    ],
+    "Locations": [
+      "Serenno"
+    ],
+    "Gender": [
+      "Male"
+    ],
+    "Dimensions": [
+      "Height: 1.93m"
+    ],
+    "Vehicles": [
+      "Solar Sailer",
+      "Count Dooku's Speeder"
+    ],
+    "Weapons": [
+      "Lightsaber"
+    ],
+    "Tool": [
+      "The Box"
+    ],
+    "height": "1.93m",
+    "gender": "Male",
+    "slug": "count-dooku"
+  },
+  {
+    "name": "Maul",
+    "Appearances": [
+      "Star Wars: The Phantom Menace (Episode I)",
+      "Solo: A Star Wars Story",
+      "Star Wars Rebels",
+      "Star Wars: The Clone Wars",
+      "Star Wars: Maul \u2013 Shadow Lord",
+      "Disney Infinity 3.0 - Character Quest",
+      "Jedi Mind Match"
+    ],
+    "Affiliations": [
+      "Sith"
+    ],
+    "Locations": [
+      "Dathomir"
+    ],
+    "Gender": [
+      "Male"
+    ],
+    "Dimensions": [
+      "Height: 1.84m"
+    ],
+    "species": [
+      "Dathomirian",
+      "Zabrak"
+    ],
+    "Vehicles": [
+      "Gauntlet Fighter",
+      "Sith Infiltrator",
+      "Sith Speeder",
+      "The Nightbrother"
+    ],
+    "Weapons": [
+      "Darth Maul's Lightsaber"
+    ],
+    "Tool": [
+      "Sith holocron"
+    ],
+    "height": "1.84m",
+    "gender": "Male",
+    "slug": "darth-maul"
+  },
+  {
+    "name": "Darth Vader",
+    "Appearances": [
+      "Star Wars: A New Hope (Episode IV)",
+      "Star Wars: The Empire Strikes Back (Episode V)",
+      "Star Wars: Revenge of the Sith (Episode III)",
+      "Rogue One: A Star Wars Story",
+      "Star Wars: Return of the Jedi (Episode VI)",
+      "Star Wars Rebels",
+      "Star Wars: Obi-Wan Kenobi",
+      "Star Wars: Maul \u2013 Shadow Lord",
+      "Star Wars: Tiny Death Star",
+      "X-wing Fighter - Star Wars Arcade",
+      "Star Wars: Tiny Death Star (SEA)",
+      "Star Wars Arcade",
+      "Star Wars Rebels: Special Ops",
+      "Yoda's Jedi Training - Star Wars Arcade",
+      "Disney Infinity 3.0 - Character Quest",
+      "Rogue One: Boots on the Ground - Star Wars Arcade",
+      "Star Wars: Battlefront",
+      "Star Wars: Commander",
+      "Star Wars: Rivals",
+      "Team Tactics - Star Wars Arcade",
+      "Jedi Mind Match"
+    ],
+    "Affiliations": [
+      "Galactic Empire",
+      "Sith"
+    ],
+    "Locations": [
+      "Death Star",
+      "Death Star II"
+    ],
+    "Gender": [
+      "Male"
+    ],
+    "Dimensions": [
+      "Height: 2.03m"
+    ],
+    "species": [
+      "Human"
+    ],
+    "Vehicles": [
+      "Darth Vader's TIE Fighter"
+    ],
+    "Weapons": [
+      "Darth Vader's lightsaber"
+    ],
+    "height": "2.03m",
+    "gender": "Male",
+    "slug": "darth-vader"
+  },
+  {
+    "name": "",
+    "height": null,
+    "gender": null,
+    "slug": "din-djarin"
+  },
+  {
+    "name": "Grand Admiral Thrawn",
+    "Appearances": [
+      "Star Wars Rebels",
+      "Star Wars: Ahsoka"
+    ],
+    "Affiliations": [
+      "Galactic Empire"
+    ],
+    "Locations": [
+      "Thrawn's Office"
+    ],
+    "Gender": [
+      "Male"
+    ],
+    "Dimensions": [
+      "Height: 1.93m"
+    ],
+    "token": [
+      "Kalikori"
+    ],
+    "height": "1.93m",
+    "gender": "Male",
+    "slug": "grand-admiral-thrawn"
+  },
+  {
+    "name": "Grogu",
+    "Appearances": [
+      "Star Wars: The Mandalorian and Grogu",
+      "Star Wars: The Book of Boba Fett",
+      "Star Wars: The Mandalorian"
+    ],
+    "Affiliations": [
+      "Jedi Order",
+      "Mandalorians"
+    ],
+    "Dimensions": [
+      "Height: 0.34m"
+    ],
+    "height": "0.34m",
+    "gender": null,
+    "slug": "grogu"
+  },
+  {
+    "name": "Han Solo",
+    "Appearances": [
+      "Star Wars: The Force Awakens (Episode VII)",
+      "Star Wars: A New Hope (Episode IV)",
+      "Star Wars: The Empire Strikes Back (Episode V)",
+      "Star Wars: Return of the Jedi (Episode VI)",
+      "Star Wars: The Rise of Skywalker (Episode IX)",
+      "Solo: A Star Wars Story",
+      "Star Wars Pinball: Solo: A Star Wars Story",
+      "X-wing Fighter - Star Wars Arcade",
+      "Galactic Spy",
+      "A Sticker Book Far, Far Away",
+      "Star Wars: Battlefront",
+      "Solo Shuffle",
+      "Don't Let The Wookiee Win"
+    ],
+    "Affiliations": [
+      "Rebel Alliance"
+    ],
+    "Locations": [
+      "Corellia",
+      "Mos Eisley spaceport",
+      "Numidian Prime"
+    ],
+    "Gender": [
+      "Male"
+    ],
+    "Dimensions": [
+      "Height: 1.8m"
+    ],
+    "species": [
+      "Human"
+    ],
+    "Weapons": [
+      "Blaster Pistol"
+    ],
+    "Vehicles": [
+      "Millennium Falcon",
+      "The Eravana"
+    ],
+    "height": "1.8m",
+    "gender": "Male",
+    "slug": "han-solo"
+  },
+  {
+    "name": "Jango Fett",
+    "Appearances": [
+      "Star Wars: Attack of the Clones (Episode II)"
+    ],
+    "Gender": [
+      "Male"
+    ],
+    "Dimensions": [
+      "Height: 1.83m"
+    ],
+    "Weapons": [
+      "Blaster Rifle",
+      "Z-6 Jetpack",
+      "Flame Thrower"
+    ],
+    "Vehicles": [
+      "Boba Fett's starship"
+    ],
+    "height": "1.83m",
+    "gender": "Male",
+    "slug": "jango-fett"
+  },
+  {
+    "name": "Supreme Leader Kylo Ren",
+    "Appearances": [
+      "Star Wars: The Last Jedi (Episode VIII)",
+      "Star Wars: The Force Awakens (Episode VII)",
+      "Star Wars: The Rise of Skywalker (Episode IX)",
+      "Star Wars Resistance",
+      "X-wing Fighter - Star Wars Arcade"
+    ],
+    "Affiliations": [
+      "The First Order"
+    ],
+    "Gender": [
+      "Male"
+    ],
+    "species": [
+      "Human"
+    ],
+    "Vehicles": [
+      "Kylo Ren's Command Shuttle",
+      "Finalizer",
+      "TIE silencer",
+      "The Supremacy"
+    ],
+    "Weapons": [
+      "Kylo Ren's Lightsaber"
+    ],
+    "height": null,
+    "gender": "Male",
+    "slug": "kylo-ren"
+  },
+  {
+    "name": "Leia Organa",
+    "Appearances": [
+      "Star Wars: The Force Awakens (Episode VII)",
+      "Star Wars: A New Hope (Episode IV)",
+      "Rogue One: A Star Wars Story",
+      "Star Wars: The Empire Strikes Back (Episode V)",
+      "Star Wars: Return of the Jedi (Episode VI)",
+      "Star Wars: The Last Jedi (Episode VIII)",
+      "Star Wars: Revenge of the Sith (Episode III)",
+      "Star Wars: Obi-Wan Kenobi",
+      "Star Wars Rebels",
+      "Star Wars Resistance",
+      "Disney Infinity 3.0 - Character Quest",
+      "Star Wars: Battlefront",
+      "Star Wars: Rivals"
+    ],
+    "Affiliations": [
+      "Galactic Senate",
+      "Rebel Alliance",
+      "The Resistance",
+      "Alderaan Royal Family"
+    ],
+    "Locations": [
+      "Alderaan",
+      "Polis Massa",
+      "Crait"
+    ],
+    "Gender": [
+      "Female"
+    ],
+    "Dimensions": [
+      "Height: 1.5m"
+    ],
+    "species": [
+      "Human"
+    ],
+    "Weapons": [
+      "Blaster Pistol"
+    ],
+    "Vehicles": [
+      "Tantive IV",
+      "The Raddus"
+    ],
+    "height": "1.5m",
+    "gender": "Female",
+    "slug": "leia-organa"
+  },
+  {
+    "name": "Luke Skywalker",
+    "Appearances": [
+      "Star Wars: A New Hope (Episode IV)",
+      "Star Wars: The Empire Strikes Back (Episode V)",
+      "Star Wars: Revenge of the Sith (Episode III)",
+      "Star Wars: The Last Jedi (Episode VIII)",
+      "Star Wars: The Force Awakens (Episode VII)",
+      "Star Wars: The Rise of Skywalker (Episode IX)",
+      "Star Wars: Return of the Jedi (Episode VI)",
+      "Star Wars: The Book of Boba Fett",
+      "Star Wars: Obi-Wan Kenobi",
+      "Star Wars Rebels",
+      "Star Wars: The Mandalorian",
+      "Star Wars: Tiny Death Star",
+      "Star Wars: Tiny Death Star (SEA)",
+      "Star Wars Arcade",
+      "Yoda's Jedi Training - Star Wars Arcade",
+      "A Sticker Book Far, Far Away",
+      "Disney Infinity 3.0 - Character Quest",
+      "Star Wars: Battlefront",
+      "Star Wars: Rivals",
+      "Jedi Mind Match"
+    ],
+    "Affiliations": [
+      "Jedi Order",
+      "Rebel Alliance"
+    ],
+    "Locations": [
+      "Lars Moisture Farm",
+      "Polis Massa",
+      "Tatooine"
+    ],
+    "Gender": [
+      "Male"
+    ],
+    "Dimensions": [
+      "Height: 1.72m"
+    ],
+    "species": [
+      "Human"
+    ],
+    "Weapons": [
+      "Blaster Pistol",
+      "Lightsaber",
+      "Luke Skywalker's Lightsaber (Green Blade)",
+      "Skywalker lightsaber"
+    ],
+    "Vehicles": [
+      "Snowspeeder",
+      "T-16 Skyhopper",
+      "X-wing starfighter",
+      "X-34 Landspeeder"
+    ],
+    "Tool": [
+      "Bacta Tank",
+      "Moisture Vaporator"
+    ],
+    "height": "1.72m",
+    "gender": "Male",
+    "slug": "luke-skywalker"
+  },
+  {
+    "name": "Mace Windu",
+    "Appearances": [
+      "Star Wars: Attack of the Clones (Episode II)",
+      "Star Wars: The Phantom Menace (Episode I)",
+      "Star Wars: The Clone Wars",
+      "Star Wars: Tales of the Jedi",
+      "Jedi Mind Match"
+    ],
+    "Affiliations": [
+      "Jedi Order"
+    ],
+    "Gender": [
+      "Male"
+    ],
+    "Dimensions": [
+      "Height: 1.92m"
+    ],
+    "Weapons": [
+      "Lightsaber",
+      "Mace Windu's Lightsaber"
+    ],
+    "Vehicles": [
+      "Jedi Starfighter"
+    ],
+    "height": "1.92m",
+    "gender": "Male",
+    "slug": "mace-windu"
+  },
+  {
+    "name": "Moff Gideon",
+    "Appearances": [
+      "Star Wars: The Mandalorian"
+    ],
+    "Dimensions": [
+      "Height: 1.83m"
+    ],
+    "height": "1.83m",
+    "gender": null,
+    "slug": "moff-gideon"
+  },
+  {
+    "name": "Obi-Wan Kenobi",
+    "Appearances": [
+      "Star Wars: A New Hope (Episode IV)",
+      "Star Wars: The Empire Strikes Back (Episode V)",
+      "Star Wars: Attack of the Clones (Episode II)",
+      "Star Wars: Revenge of the Sith (Episode III)",
+      "Star Wars: The Phantom Menace (Episode I)",
+      "Star Wars: Return of the Jedi (Episode VI)",
+      "Star Wars: Obi-Wan Kenobi",
+      "Star Wars: The Clone Wars",
+      "Star Wars Rebels",
+      "Disney Infinity 3.0 - Character Quest",
+      "Jedi Mind Match"
+    ],
+    "Affiliations": [
+      "Jedi Order"
+    ],
+    "Locations": [
+      "Obi-Wan's House",
+      "Ben Kenobi\u2019s cave",
+      "Stewjon"
+    ],
+    "Gender": [
+      "Male"
+    ],
+    "Dimensions": [
+      "Height: 1.82m"
+    ],
+    "Weapons": [
+      "Lightsaber",
+      "Obi-Wan Kenobi's Lightsabers",
+      "Ben Kenobi\u2019s secret lightsaber box"
+    ],
+    "token": [
+      "T-16 skyhopper model"
+    ],
+    "Vehicles": [
+      "Jedi Starfighter"
+    ],
+    "height": "1.82m",
+    "gender": "Male",
+    "slug": "obi-wan-kenobi"
+  },
+  {
+    "name": "Padm\u00e9 Amidala",
+    "Appearances": [
+      "Star Wars: Attack of the Clones (Episode II)",
+      "Star Wars: Revenge of the Sith (Episode III)",
+      "Star Wars: The Phantom Menace (Episode I)",
+      "Star Wars: The Clone Wars",
+      "Star Wars: Tales of the Jedi"
+    ],
+    "Affiliations": [
+      "Galactic Republic",
+      "Galactic Senate"
+    ],
+    "Locations": [
+      "Naboo"
+    ],
+    "Gender": [
+      "Female"
+    ],
+    "Dimensions": [
+      "Height: 1.65m"
+    ],
+    "species": [
+      "Human"
+    ],
+    "Vehicles": [
+      "Naboo Royal Starship",
+      "Naboo N-1 Starfighter",
+      "Naboo Royal Cruiser"
+    ],
+    "height": "1.65m",
+    "gender": "Female",
+    "slug": "padme-amidala"
+  },
+  {
+    "name": "Emperor Palpatine (Darth Sidious)",
+    "Appearances": [
+      "Star Wars: The Empire Strikes Back (Episode V)",
+      "Star Wars: Attack of the Clones (Episode II)",
+      "Star Wars: Return of the Jedi (Episode VI)",
+      "Star Wars: The Rise of Skywalker (Episode IX)",
+      "Star Wars: The Phantom Menace (Episode I)",
+      "Star Wars: Revenge of the Sith (Episode III)",
+      "Star Wars Rebels",
+      "Star Wars: The Clone Wars",
+      "Star Wars: The Bad Batch",
+      "Star Wars: Obi-Wan Kenobi",
+      "Star Wars: Tales of the Jedi",
+      "Star Wars: Maul \u2013 Shadow Lord",
+      "Jedi Mind Match"
+    ],
+    "Affiliations": [
+      "Galactic Empire",
+      "Galactic Republic",
+      "Galactic Senate",
+      "Sith"
+    ],
+    "Locations": [
+      "Naboo",
+      "Death Star II"
+    ],
+    "Gender": [
+      "Male"
+    ],
+    "Dimensions": [
+      "Height: 1.73m",
+      "Height: 1.78m"
+    ],
+    "species": [
+      "Human"
+    ],
+    "Weapons": [
+      "Force Lightning",
+      "Lightsaber",
+      "Palpatine's lightsaber"
+    ],
+    "height": "1.73m",
+    "gender": "Male",
+    "slug": "palpatine"
+  },
+  {
+    "name": "Qui-Gon Jinn",
+    "Appearances": [
+      "Star Wars: The Phantom Menace (Episode I)",
+      "Star Wars: Obi-Wan Kenobi",
+      "Star Wars: The Clone Wars",
+      "Star Wars: Tales of the Jedi"
+    ],
+    "Affiliations": [
+      "Jedi Order"
+    ],
+    "Gender": [
+      "Male"
+    ],
+    "Dimensions": [
+      "Height: 1.93m"
+    ],
+    "Weapons": [
+      "Lightsaber",
+      "Qui-Gon's lightsaber"
+    ],
+    "height": "1.93m",
+    "gender": "Male",
+    "slug": "qui-gon-jinn"
+  },
+  {
+    "name": "R2-D2",
+    "Appearances": [
+      "Star Wars: The Force Awakens (Episode VII)",
+      "Star Wars: A New Hope (Episode IV)",
+      "Rogue One: A Star Wars Story",
+      "Star Wars: The Empire Strikes Back (Episode V)",
+      "Star Wars: Attack of the Clones (Episode II)",
+      "Star Wars: Return of the Jedi (Episode VI)",
+      "Star Wars: The Rise of Skywalker (Episode IX)",
+      "Star Wars: The Phantom Menace (Episode I)",
+      "Star Wars: The Last Jedi (Episode VIII)",
+      "Star Wars: Revenge of the Sith (Episode III)",
+      "Star Wars: The Book of Boba Fett",
+      "Star Wars: Obi-Wan Kenobi",
+      "Star Wars: The Clone Wars",
+      "Star Wars Rebels",
+      "Star Wars: The Mandalorian",
+      "Star Wars Arcade",
+      "Yoda's Jedi Training - Star Wars Arcade",
+      "A Sticker Book Far, Far Away",
+      "Team Tactics - Star Wars Arcade"
+    ],
+    "Affiliations": [
+      "Galactic Republic",
+      "Rebel Alliance",
+      "The Resistance"
+    ],
+    "Locations": [
+      "Naboo",
+      "Havoc Outpost"
+    ],
+    "Dimensions": [
+      "Height: 1.09m"
+    ],
+    "droid": [
+      "Astromech Droid"
+    ],
+    "Vehicles": [
+      "X-wing starfighter",
+      "Poe Dameron\u2019s X-wing starfighter",
+      "Jedi Starfighter"
+    ],
+    "Tool": [
+      "Restraining Bolt"
+    ],
+    "height": "1.09m",
+    "gender": null,
+    "slug": "r2-d2"
+  },
+  {
+    "name": "Rey",
+    "Appearances": [
+      "Star Wars: The Last Jedi (Episode VIII)",
+      "Star Wars: The Force Awakens (Episode VII)",
+      "Star Wars: The Rise of Skywalker (Episode IX)",
+      "Star Wars: Forces of Destiny",
+      "Star Wars: Puzzle Droid",
+      "Jedi Mind Match"
+    ],
+    "Locations": [
+      "Jakku",
+      "Goazon Badlands",
+      "Rey's Home"
+    ],
+    "Gender": [
+      "Female"
+    ],
+    "Dimensions": [
+      "Height: 1.7m"
+    ],
+    "species": [
+      "Human"
+    ],
+    "Weapons": [
+      "Blaster Pistol",
+      "Lightsaber",
+      "Skywalker lightsaber",
+      "Rey's Quarterstaff",
+      "Rey's Blaster"
+    ],
+    "Vehicles": [
+      "Millennium Falcon",
+      "X-wing starfighter",
+      "Rey's Speeder"
+    ],
+    "height": "1.7m",
+    "gender": "Female",
+    "slug": "rey"
+  },
+  {
+    "name": "Yoda",
+    "Appearances": [
+      "Star Wars: The Empire Strikes Back (Episode V)",
+      "Star Wars: Attack of the Clones (Episode II)",
+      "Star Wars: Return of the Jedi (Episode VI)",
+      "Star Wars: The Phantom Menace (Episode I)",
+      "Star Wars: Revenge of the Sith (Episode III)",
+      "Star Wars: The Clone Wars",
+      "Star Wars Rebels",
+      "Star Wars: The Acolyte"
+    ],
+    "Affiliations": [
+      "Jedi Order"
+    ],
+    "Locations": [
+      "Yoda's Hut"
+    ],
+    "Gender": [
+      "Male"
+    ],
+    "Dimensions": [
+      "Height: 0.66m"
+    ],
+    "species": [
+      "Unknown"
+    ],
+    "Weapons": [
+      "Lightsaber",
+      "Yoda's Lightsaber"
+    ],
+    "Vehicles": [
+      "Yoda's Fighter"
+    ],
+    "height": "0.66m",
+    "gender": "Male",
+    "slug": "yoda"
+  }
+]
